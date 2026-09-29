@@ -6,6 +6,7 @@ class Awscli < Formula
   url "https://github.com/aws/aws-cli/archive/refs/tags/2.37.5.tar.gz"
   sha256 "832bbb3441a0b4e3cc36d00eb12ae842a77865367e9b06732f118be5bcf93955"
   license "Apache-2.0"
+  revision 1
   compatibility_version 1
   head "https://github.com/aws/aws-cli.git", branch: "v2"
 
